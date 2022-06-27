@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Conversions\Conversions.csproj" />
+    <ProjectReference Include="..\Delegates\Delegates.csproj" />
+    <ProjectReference Include="..\DuckSimulationGame\DuckGameBusinessLayer.csproj" />
+    <ProjectReference Include="..\EqualityOperations\EqualityOperations.csproj" />
+    <ProjectReference Include="..\EquipmentBusinessLayer\EquipmentInventory.csproj" />
+    <ProjectReference Include="..\ExceptionHandling\ExceptionHandling.csproj" />
+    <ProjectReference Include="..\ExtensionsExcercise\ExtensionsExcercise.csproj" />
+    <ProjectReference Include="..\FileOperation\FileOperation.csproj" />
+    <ProjectReference Include="..\IEnumerableExtension\IEnumerableExtension.csproj" />
+    <ProjectReference Include="..\ObservableCollectionExcercise\ObservableCollectionExcercise.csproj" />
+    <ProjectReference Include="..\PrimeNumbers\PrimeNumbers.csproj" />
+    <ProjectReference Include="..\PriorityQueue1\PriorityQueue1.csproj" />
+    <ProjectReference Include="..\PriorityQueue2\PriorityQueue2.csproj" />
+    <ProjectReference Include="..\PriorityQueue3\PriorityQueue3.csproj" />
+    <ProjectReference Include="..\ProductInventory\ProductInventory.csproj" />
+  </ItemGroup>
+
+</Project>
